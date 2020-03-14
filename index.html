@@ -11,7 +11,7 @@
     <header>
             <div class="logo">
                 <img src="photos/logo.png" alt="delicious">
-                <h2>Decicious</h2>
+                <h2>Delicious</h2>
                 <p>The best food blog on the web</p>
             </div>
         <nav class="social">
@@ -32,14 +32,18 @@
     <div class='Article'>
         <h1>Chocolate Pizza</h1>
         <h3>Posted on 15 DEC 2013 / Desserts</h3>
-        <img src="photos/print-icon.png" alt="print">
-        <p>Print</p>
-        <img src="photos/choco-pizza.png" alt="Chocolate Pizza">
+        <div id="print">
+            <ul>
+                <li><img src="photos/print-icon.png" alt="print"></li>
+                <li><p>Print</p></li>
+            </ul>
+        </div>
+        <img id="CP" src="photos/choco-pizza.png" alt="Chocolate Pizza">
         <ul>
-            <li><p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p></li>
-            <li><p>Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled. 
+            <li class="body"><p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p></li>
+            <li class="body"><p>Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled. 
             </p></li>
-            <li><p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving. </p></li>
+            <li class="body"><p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving. </p></li>
         </ul>
     </div>
     <div class="ingredients">
@@ -53,8 +57,8 @@
         </ul>
         <ul>
             <li>1 1/2 cups heavy cream</li>
-            <li>1/3 granulated sugar</li>
-            <li>2 egg yolks</li>
+            <li class='strike'>1/3 granulated sugar</li>
+            <li class='strike'>2 egg yolks</li>
             <li>1 lemon, juiced</li>
             <li>2 tbsp butter</li>
             <li>1 cup honey roasted pecans, roughly chopped</li>
@@ -66,13 +70,13 @@
 
     </div>
 
-    <div>
+    <div class='profile'>
         <img src="photos/van-pic.png" alt="founder">
         <h2>Vanessa Stevenson</h2>
         <p>Food enthusiast, photography fan, Add a pinch of raw foodism and that's pretty much who I am.</p>
     </div>
     <button class="share">Share Recipe</button>
-   <hr> <img src="photos/small-logo.png" alt="small logo"> <hr>
+   <hr> <img id='lower' src="photos/small-logo.png" alt="small logo"> <hr>
     <p>
         Delicious &copy; 2013 &middot; All Rights Reserved.
     </p>

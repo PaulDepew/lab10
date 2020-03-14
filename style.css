@@ -1,0 +1,167 @@
+body {
+    background-color: whitesmoke;
+    width: 1000px;
+}
+
+div.logo {
+    width: 400px;
+    float: left;
+}
+
+div.logo h2 {
+    font-family: 'Yellowtail', cursive;
+     margin: 0px;
+    padding-left: 45px;
+}
+
+div.logo p {
+   font-family:  'PT Sans Narrow', sans-serif;
+    margin: 0px;
+    padding-left: 45px;
+}
+
+div.logo img {
+    float: left;
+    padding-top: 5px;
+}
+
+nav ul {
+    position: relative;
+    margin-left: 70%;
+    padding-top: 20px;
+
+}
+
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+}
+
+nav img#space {
+    padding-right: 10px;
+}
+
+div.crosshatch {
+    background-image: url('/photos/hr-img.png');
+    background-repeat: repeat;
+    height: 15px;
+}
+
+div.article {
+    position:relative;
+    color: grey;
+}
+div.Article h1 {
+    font-family:  'PT Sans Narrow', sans-serif, bold;
+    margin-top: 50px;
+    margin-bottom: 0px;
+} 
+
+div.Article h3 {
+    font-family:  'PT Sans Narrow', sans-serif;
+    font-weight: lighter;
+    float:left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: grey;
+}
+
+div#print {
+position: relative;
+margin-left: 85%;
+
+}
+div#print li {
+    display: inline-block;
+}
+
+div#print img {
+float: left;
+margin-right:5px;
+padding-top: 3px;
+}
+
+div#print p {
+    font-family:  'PT Sans Narrow', sans-serif;
+    color: grey;
+}
+
+body img#CP {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body li.body {
+    list-style: none;
+    text-indent: 35px;
+    color: grey;
+}
+
+div.ingredients {
+    background-image: url('/photos/list-bg.png');
+    background-size: 100%;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+div.ingredients ul {
+    display: inline-block;
+    list-style: circle;
+    font-family: 'Shadows Into Light', cursive;
+    margin-left: 18%;
+}
+
+div.ingredients li.strike {
+    text-decoration-line: line-through;
+}
+
+div.profile {
+ width: 50%;
+ display: inline-block;
+
+}
+div.profile img {
+    float:left;
+    margin-top: 10px;
+    /* padding-bottom: 20px; */
+    border-radius: 100%;
+}
+
+div.profile h2 {
+    margin: 10px 0px 0px 0px;
+    
+}
+div.profile p {
+    color: grey;
+    text-align: left;
+    margin: 10px 0px 0px 0px;
+    
+}
+
+button {
+    background-color: rgb(168, 111, 77) ;
+    border: none;
+    height: 25px;
+    width: 100px;
+    color: whitesmoke;
+    font-family:  'PT Sans Narrow', sans-serif;
+    font-size: 10pt;
+    margin-left: 85%;
+}
+
+hr {
+    width: 47%;
+    display: inline-block;
+}
+
+#lower {
+    margin-top: 25px;
+}
+
+footer p {
+text-align: center;
+color: grey;
+    
+}

@@ -43,7 +43,7 @@ nav img#space {
 }
 
 div.crosshatch {
-    background-image: url('/photos/hr-img.png');
+    background-image: url('hr-img.png');
     background-repeat: repeat;
     height: 15px;
 }
@@ -100,7 +100,7 @@ body li.body {
 }
 
 div.ingredients {
-    background-image: url('/photos/list-bg.png');
+    background-image: url('list-bg.png');
     background-size: 100%;
     margin-bottom: 50px;
     width: 100%;
